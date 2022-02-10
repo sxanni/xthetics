@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>xthetic|ATTACK-TV</title>
+        <meta name="keywords" content="form, username, email, password, gender, html">
+        
+        <link rel="stylesheet" href="css/xthetic.css">
+        
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    
+    <body>
+        
+        <h1 align="left" style="color: pink"  > <a href="attackmood.html"> [ <mark style="color: crimson">TURN OFF</mark> (ATTACKTV) ]</a></h1><br>
+        <div align="left">
+            <audio controls autoplay>
+            <source src="audio/a%20playlist%20that%20will%20make%20you%20feel%20like%20you're%20in%20a%20movie%20starring%20as%20a%20badass%20villain..mp3" type="audio/mp3">
+            Audio is not supported in your browser, need to update it
+        
+            </audio>
+        
+        </div>
+        <canvas id="myCanvas" width="100%" height="100%"></canvas>
+        
+        <div id="myGallery">
+            <img src="images/laser.gif" class="active" />
+            <img src="images/driveby.gif" />
+            <img src="images/blackops.gif" />
+            <img src="images/pistol.gif" />
+            <img src="images/tokyobite.gif" />
+            <img src="images/firefx.gif" />
+            <img src="images/dreamhunt.gif" />
+            <img src="images/explode.gif" />
+            <img src="images/godzilla.gif" />
+            <img src="images/bats.gif" />
+            <img src="images/transform.gif"/>
+    
+        </div>
+        <script>
+            function swapImages(){
+              var $active = $('#myGallery .active');
+              var $next = ($('#myGallery .active').next().length > 0) ? $('#myGallery .active').next() : $('#myGallery img:first');
+              $active.fadeOut(function(){
+              $active.removeClass('active');
+              $next.fadeIn().addClass('active');
+              });
+            }
+
+            $(document).ready(function(){
+              // Run our swapImages() function every 5secs
+              setInterval('swapImages()', 5000);
+            })
+        </script>
+        
+    </body>
+    
+</html>

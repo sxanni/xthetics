@@ -1,0 +1,175 @@
+
+body{
+    /* margin:0; */
+    background-color: black;
+    text-align: center
+    
+}
+
+#feedbacktable{
+      
+    text-align: left;
+    align-content: center;
+    background-color: pink;
+}
+
+
+form{
+    
+    display: table;
+    
+}
+tr{
+    display: table-row;
+}
+
+td{
+    display: table-cell;
+}
+
+
+.meditate{
+    width: 600px;
+    text-align:justify;
+}
+
+p{
+    color: whitesmoke;
+    font-size: 130% ;
+}
+
+#menu{
+    text-align: right;
+    font-size: 150%;
+    background-color: whitesmoke;
+    
+    
+}
+
+#mainimg{
+    
+/* width: 700px; */
+height:750px;
+    
+}
+ .right{
+
+        /* display: block; */
+        float: right;
+
+ }
+
+.moodsimg{
+    
+    height:300px; 
+    text-align: center;
+    
+    
+}
+
+.moodpic{
+    
+    
+    width:600px;
+    text-align:left;
+    display: block;
+    
+}
+
+#introquote{
+    color: pink; 
+    font-size: 40px; 
+    
+}
+
+#logo{
+    display: inline-block;
+    
+}
+
+#xthetich1{
+    display:block;
+    text-align: left;
+    color: pink;
+    
+}
+
+#contact{
+  margin: 2%;  
+align-content:center;
+    text-align: 0;
+    padding:1px;
+    display:inline-block;
+    
+}
+
+.artistimg{
+    width: 80%;
+    
+}
+
+.artistname{
+    
+color: pink;
+    
+}
+
+.gallerytxt{
+    text-align: left;
+}
+
+.galleryp{
+    text-align: justify;
+    color: aliceblue;
+    
+}
+
+.galleryname{
+    
+    color: pink;
+    
+}
+
+
+
+#feedbackform{
+    text-align: center;
+    color: whitesmok;
+    font-size: 50px;
+    background-color: pink;
+}
+form{
+    text-align: justify;
+}
+
+.moodlist{
+    align-content: center;
+    
+}
+.moodlist img{
+    width: 150px;
+    height:130px
+}
+
+
+#myGallery{
+    
+    text-align: center;
+align-content: center;
+  position:relative;
+  width:400px; /* Set your image width */
+  height:300px; /* Set your image height */
+}
+#myGallery img{
+    text-align: match-parent;
+    margin-left: 75%;
+    margin-right: 25%;
+  display:none;
+  position:absolute;
+  top:0;
+  left:0;
+    width: 1800px
+}
+#myGallery img.active{
+  display:block;
+}
